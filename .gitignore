@@ -1,0 +1,27 @@
+# Private inventory data and backups
+*.sqlite
+*.sqlite3
+*.db
+backups/
+data/
+
+# Local test and runtime files
+.test-browser-data/
+startup-error.log
+*.log
+__pycache__/
+*.py[cod]
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Windows and editor metadata
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
